@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("/fonts/CascadiaMono.ttf") format("truetype");
+}
+* {
+  background-color: #121212;
+}
+
+body {
+  color: #f2f2f2;
+}
+
+.title-sans,
+.subtitle-sans {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+}
+
+.subtitle-sans {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.title-code,
+.subtitle-code {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 32px;
+}
+
+.subtitle-code {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

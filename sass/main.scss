@@ -1,0 +1,30 @@
+@import "variables"; // Asegúrate de importar tus variables
+
+* {
+  background-color: $black;
+}
+
+body {
+  color: $white;
+}
+
+.title-sans,
+.subtitle-sans {
+  font-family: $primary-font;
+  font-size: $title-font-size;
+}
+
+.subtitle-sans {
+  font-size: $subtitle-font-size;
+  font-weight: $font-weight-regular;
+}
+
+.title-code,
+.subtitle-code {
+  font-family: $secondary-font;
+  font-size: $title-font-size;
+}
+
+.subtitle-code {
+  font-size: $subtitle-font-size;
+}
