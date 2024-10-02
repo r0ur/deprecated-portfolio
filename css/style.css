@@ -10,28 +10,36 @@
   background-color: #121212;
 }
 
+ul,
+li,
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+  list-style-type: none;
+}
+
 body {
   color: #f2f2f2;
 }
 
-.title-sans,
-.subtitle-sans {
+.tit-sans,
+.subt-sans {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
 }
 
-.subtitle-sans {
+.subt-sans {
   font-size: 24px;
   font-weight: 400;
 }
 
-.title-code,
-.subtitle-code {
+.tit-code,
+.subt-code {
   font-family: "Cascadia Mono", monospace;
   font-size: 32px;
 }
 
-.subtitle-code {
+.subt-code {
   font-size: 24px;
 }
 

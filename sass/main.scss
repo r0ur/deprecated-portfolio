@@ -1,30 +1,38 @@
-@import "variables"; // Asegúrate de importar tus variables
+@import "variables";
 
 * {
   background-color: $black;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  color: $white;
+  list-style-type: none;
 }
 
 body {
   color: $white;
 }
 
-.title-sans,
-.subtitle-sans {
+.tit-sans,
+.subt-sans {
   font-family: $primary-font;
   font-size: $title-font-size;
 }
 
-.subtitle-sans {
+.subt-sans {
   font-size: $subtitle-font-size;
   font-weight: $font-weight-regular;
 }
 
-.title-code,
-.subtitle-code {
+.tit-code,
+.subt-code {
   font-family: $secondary-font;
   font-size: $title-font-size;
 }
 
-.subtitle-code {
+.subt-code {
   font-size: $subtitle-font-size;
 }
