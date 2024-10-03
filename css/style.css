@@ -6,66 +6,100 @@
   font-family: "Cascadia Mono";
   src: url("/fonts/CascadiaMono.ttf") format("truetype");
 }
-.title-code {
-  font-family: "Cascadia Mono", monospace;
-  font-size: 24px;
+.hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 16px;
+}
+
+.hero h2 {
+  font-size: 32px;
   font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 24px;
 }
 
-ul,
-li,
-a {
-  text-decoration: none;
-  color: #f2f2f2;
-  list-style-type: none;
+.hero span {
+  color: #1add13;
+  font-family: "Cascadia Mono", monospace;
 }
 
-body {
-  color: #f2f2f2;
-  background-color: #121212;
+.buttons-container {
+  display: flex;
+  gap: 12px;
 }
 
 button {
-  padding: 12px 16px;
-  font-weight: 400;
-  font-size: 16px;
-  font-family: "Cascadia Mono", monospace;
-  cursor: pointer;
-  color: #f9f1a5;
-  border: #f9f1a5 1px solid;
   background-color: transparent;
-}
-
-.blk-color {
-  color: #121212;
-}
-
-.wht-color {
-  color: #f2f2f2;
-}
-
-.pri-color {
+  border: #f9f1a5 1px solid;
   color: #f9f1a5;
+  cursor: pointer;
+  font-family: "Cascadia Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 12px 16px;
 }
 
-.sec-color {
+.live-work {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.case-studies {
+  align-items: center;
+}
+
+.case-studies h2 {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
   color: #1add13;
 }
 
-.tert-color {
-  color: #f9aab0;
+.case-studies p {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.quat-color {
-  color: #92c5ed;
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-.quin-color {
-  color: #cccccc;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
-.sen-color {
-  color: #a8ffa8;
+.main {
+  margin: 0 auto;
+  max-width: 736px;
+  padding: 40px 0;
+}
+
+body {
+  background-color: #121212;
+  color: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+// Case Studies Component
+
+.case-studies {
+  align-items: center;
+}
+
+.case-studies h2 {
+  font-family: $mono-font;
+  font-size: $fs-2;
+  font-weight: $fw-r;
+  color: $secondary;
+}
+
+.case-studies p {
+  font-family: $mono-font;
+  font-size: $fs-3;
+  font-weight: $fw-r;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

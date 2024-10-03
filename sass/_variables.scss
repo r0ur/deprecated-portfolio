@@ -8,6 +8,12 @@
   src: url("/fonts/CascadiaMono.ttf") format("truetype");
 }
 
+// Breakpoints
+$desktop: 1150px;
+$tablet: 850px;
+$phablet: 700px;
+$mobile: 540px;
+
 // Colors
 $black: #121212;
 $white: #f2f2f2;
@@ -19,17 +25,17 @@ $quinary: #cccccc;
 $senary: #a8ffa8;
 
 // Fonts
-$primary-font: "Open Sans", sans-serif;
-$secondary-font: "Cascadia Mono", monospace;
+$sans-font: "Open Sans", sans-serif;
+$mono-font: "Cascadia Mono", monospace;
 
 // Font Size
-$title-font-size: 32px;
-$subtitle-font-size: 24px;
-$body-font-size: 20px;
-$caption-font-size: 16px;
-$legend-font-size: 14px;
-$mini-font-size: 12px;
+$fs-1: 32px;
+$fs-2: 24px;
+$fs-3: 20px;
+$fs-4: 16px;
+$fs-5: 14px;
+$fs-6: 12px;
 
 // Font Weight
-$font-weight-regular: 400;
-$font-weight-bold: 700;
+$fw-r: 400;
+$fw-b: 700;

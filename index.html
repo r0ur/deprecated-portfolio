@@ -3,58 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A portfolio website of a UX designer learning to code"
-    />
-    <meta name="keywords" content="Portfolio, UX Design, Web Development" />
-    <meta name="author" content="Armando Rojano Urízar" />
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="#121212" />
-
-    <base href="" target="_blank" />
     <title>Armando Rojano | Designer</title>
 
     <link rel="icon" type="image/x-icon" href="/assets/images/Favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
-    <noscript
-      >If you can read this, it's because your browser does not support
-      JavaScript!</noscript
-    >
   </head>
-  <body>
-    <nav>
-      <a href="">About</a>
-      <a href="">Resume</a>
-    </nav>
+
+  <body class="main">
     <header>
-      <h1>Armando Rojano</h1>
-      <h2>
-        A <span>'ux designer'</span> with over 3 years of experience, looking
-        for their next role.
-      </h2>
-      <div>
-        <button>armando_rour@outlook.com</button>
-        <button>Copy</button>
-      </div>
+      <nav>
+        <img
+          src="/assets/images/Favicon.ico"
+          alt=""
+          width="32px"
+          height="32px"
+        />
+        <a href="">About</a>
+        <a href="">Resume</a>
+      </nav>
     </header>
+
     <main>
-      <section>
-        <header>
-          <div class="">
-            <h1 class="title-code sec-color">⌈~/armando-rojano/case-studies</h1>
-            <p class="title-code sec-color">9 documents</p>
+      <section class="hero">
+        <div>
+          <h1>Armando Rojano</h1>
+          <h2>
+            A <span>'ux designer'</span> with over 3 years of experience,
+            looking for their next role.
+          </h2>
+        </div>
+        <div class="buttons-container">
+          <button href="mailto:armando_rour@outlook.com">
+            armando_rour@outlook.com
+          </button>
+          <button>Copy</button>
+        </div>
+      </section>
+
+      <section class="case-studies">
+        <div>
+          <div style="display: flex; justify-content: space-between">
+            <div style="display: flex; gap: 8px">
+              <img
+                src="/assets/images/Favicon.ico"
+                alt=""
+                width="32px"
+                height="32px"
+              />
+              <h2>⌈~/armando-rojano/case-studies</h2>
+            </div>
+            <p>9 documents</p>
           </div>
-          <h2 class="title-code sec-color">⌊.../tratodirecto.docx</h2>
-        </header>
-        <p>
-          <span>TratoDirecto</span> — Red de distribución y logística para
-          transportistas enfocada en la seguridad y facilidad de lo digital.
-        </p>
-        <p>customer experience</p>
+          <h2 style="margin-left: 40px">⌊.../tratodirecto.docx</h2>
+        </div>
+        <div></div>
+        <article>
+          <p>
+            <span>TratoDirecto</span> — Red de distribución y logística para
+            transportistas enfocada en la seguridad y facilidad de lo digital.
+          </p>
+        </article>
       </section>
     </main>
-    <footer></footer>
   </body>
 </html>
