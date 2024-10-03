@@ -6,8 +6,10 @@
   font-family: "Cascadia Mono";
   src: url("/fonts/CascadiaMono.ttf") format("truetype");
 }
-* {
-  background-color: #121212;
+.title-code {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 ul,
@@ -20,27 +22,50 @@ a {
 
 body {
   color: #f2f2f2;
+  background-color: #121212;
 }
 
-.tit-sans,
-.subt-sans {
-  font-family: "Open Sans", sans-serif;
-  font-size: 32px;
-}
-
-.subt-sans {
-  font-size: 24px;
+button {
+  padding: 12px 16px;
   font-weight: 400;
-}
-
-.tit-code,
-.subt-code {
+  font-size: 16px;
   font-family: "Cascadia Mono", monospace;
-  font-size: 32px;
+  cursor: pointer;
+  color: #f9f1a5;
+  border: #f9f1a5 1px solid;
+  background-color: transparent;
 }
 
-.subt-code {
-  font-size: 24px;
+.blk-color {
+  color: #121212;
+}
+
+.wht-color {
+  color: #f2f2f2;
+}
+
+.pri-color {
+  color: #f9f1a5;
+}
+
+.sec-color {
+  color: #1add13;
+}
+
+.tert-color {
+  color: #f9aab0;
+}
+
+.quat-color {
+  color: #92c5ed;
+}
+
+.quin-color {
+  color: #cccccc;
+}
+
+.sen-color {
+  color: #a8ffa8;
 }
 
 /*# sourceMappingURL=style.css.map */
