@@ -39,17 +39,6 @@
   gap: 12px;
 }
 
-button {
-  background-color: transparent;
-  border: #f9f1a5 1px solid;
-  color: #f9f1a5;
-  cursor: pointer;
-  font-family: "Cascadia Mono", monospace;
-  font-size: 20px;
-  font-weight: 400;
-  padding: 12px 16px;
-}
-
 .live-work {
   align-items: center;
   display: flex;
@@ -69,16 +58,33 @@ button {
   color: #1add13;
 }
 
-.case-studies p {
+.cases-descriptions {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.case-studies .counter {
   font-family: "Cascadia Mono", monospace;
   font-size: 20px;
   font-weight: 400;
 }
 
-.title {
+.header-cases {
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.title-cases {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.case-studies .label {
+  color: #1add13;
 }
 
 h1,
@@ -91,15 +97,40 @@ p {
   margin: 0;
 }
 
+body {
+  background-color: #121212;
+  color: #f2f2f2;
+}
+
+.button,
+button {
+  background-color: transparent;
+  border: #f9f1a5 1px solid;
+  color: #f9f1a5;
+  cursor: pointer;
+  font-family: "Cascadia Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 12px 16px;
+}
+
 .main {
   margin: 0 auto;
   max-width: 736px;
   padding: 40px 0;
 }
 
-body {
-  background-color: #121212;
-  color: #f2f2f2;
+.list-card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 16px;
+}
+
+.label {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

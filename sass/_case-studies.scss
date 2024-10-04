@@ -11,14 +11,31 @@
   color: $secondary;
 }
 
-.case-studies p {
+.cases-descriptions {
+  font-family: $sans-font;
+  font-size: $fs-2;
+  font-weight: $fw-r;
+  margin-bottom: 4px;
+}
+
+.case-studies .counter {
   font-family: $mono-font;
   font-size: $fs-3;
   font-weight: $fw-r;
 }
 
-.title {
+.header-cases {
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.title-cases {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.case-studies .label {
+  color: $secondary;
 }

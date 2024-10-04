@@ -3,12 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A portfolio website of a UX designer learning to code"
+    />
+    <meta name="keywords" content="Portfolio, UX Design, Web Development" />
+    <meta name="author" content="Armando Rojano Urízar" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#121212" />
+    <base href="" target="_blank" />
     <title>Armando Rojano | Designer</title>
-
-    <link rel="icon" type="image/x-icon" href="/assets/images/Favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/Favicon.ico"
+      alt="Armando Rojano's Logo"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <noscript>
+      Your browser does not support JavaScript, which may limit some
+      functionality of this site.
+    </noscript>
   </head>
-
+  <!-- Hero -->
   <body class="main">
     <header>
       <nav>
@@ -22,7 +40,6 @@
         <a href="">Resume</a>
       </nav>
     </header>
-
     <main>
       <section class="hero">
         <div>
@@ -33,36 +50,96 @@
           </h2>
         </div>
         <div class="buttons-container">
-          <button href="mailto:armando_rour@outlook.com">
-            armando_rour@outlook.com
+          <a href="mailto:armando_rour@outlook.com" class="button">
+            armando_rour@outlook.com</a
+          >
+          <button
+            aria-label="Copy email to clipboard"
+            onclick="copyToClipboard('armando_rour@outlook.com')"
+          >
+            Copy
           </button>
-          <button>Copy</button>
         </div>
       </section>
-
+      <!-- Case Studies -->
       <section class="case-studies">
         <div>
-          <div style="display: flex; justify-content: space-between">
-            <div style="display: flex; gap: 8px">
+          <div class="header-cases">
+            <div class="title-cases">
               <img
-                src="/assets/images/Favicon.ico"
-                alt=""
+                src="/assets/icons/folder32x32.svg"
+                alt="Folder Icon"
                 width="32px"
                 height="32px"
               />
               <h2>⌈~/armando-rojano/case-studies</h2>
             </div>
-            <p>9 documents</p>
+            <p class="counter">9 documents</p>
           </div>
-          <h2 style="margin-left: 40px">⌊.../tratodirecto.docx</h2>
+          <h2>⌊.../tratodirecto.docx</h2>
         </div>
-        <div></div>
-        <article>
-          <p>
-            <span>TratoDirecto</span> — Red de distribución y logística para
-            transportistas enfocada en la seguridad y facilidad de lo digital.
-          </p>
-        </article>
+        <div>
+          <div class="list-card">
+            <div>
+              <p class="cases-descriptions">
+                <strong>TratoDirecto</strong> — Red de distribución y logística
+                para transportistas enfocada en la seguridad y facilidad de lo
+                digital.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="cases-descriptions">
+                <strong>TratoDirecto</strong> — Red de distribución y logística
+                para transportistas enfocada en la seguridad y facilidad de lo
+                digital.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div class="cases-descriptions">
+              <p>
+                <strong>TratoDirecto</strong> — Red de distribución y logística
+                para transportistas enfocada en la seguridad y facilidad de lo
+                digital.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="cases-descriptions">
+                <strong>TratoDirecto</strong> — Red de distribución y logística
+                para transportistas enfocada en la seguridad y facilidad de lo
+                digital.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="cases-descriptions">
+                <strong>TratoDirecto</strong> — Red de distribución y logística
+                para transportistas enfocada en la seguridad y facilidad de lo
+                digital.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Live Work -->
+      <section class="live-work">
+        <div>
+          <div class="header-cases">
+            <div class="title-cases">
+              <img
+                src="/assets/icons/folder32x32.svg"
+                alt="Folder Icon"
+                width="32px"
+                height="32px"
+              />
+              <h2>⌈~/armando-rojano/live-work</h2>
+            </div>
+            <p class="counter">6 URLs</p>
+          </div>
+          <h2>⌊.../https://www.immersio.vr.com</h2>
+        </div>
       </section>
     </main>
   </body>
