@@ -2,8 +2,16 @@
 
 .live-work {
   align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+}
+
+.live-work .title {
+  color: $tertiary;
+}
+
+.live-work .counter {
+  color: $tertiary;
+}
+
+.live-work .label {
+  color: $tertiary;
 }

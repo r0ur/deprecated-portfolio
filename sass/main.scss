@@ -1,4 +1,5 @@
 @import "variables";
+@import "navbar";
 @import "hero";
 @import "live-work";
 @import "case-studies";
@@ -18,22 +19,34 @@ body {
   color: $white;
 }
 
-.button,
-button {
-  background-color: transparent;
-  border: $primary 1px solid;
-  color: $primary;
-  cursor: pointer;
-  font-family: $mono-font;
-  font-size: $fs-3;
-  font-weight: $fw-r;
-  padding: 12px 16px;
-}
-
 .main {
   margin: 0 auto;
   max-width: 736px;
   padding: 40px 0;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: $mono-font;
+  font-size: $fs-2;
+  font-weight: $fw-r;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.counter {
+  font-family: $mono-font;
+  font-size: $fs-3;
+  font-weight: $fw-r;
 }
 
 .list-card {
@@ -41,6 +54,13 @@ button {
   flex-direction: column;
   gap: 32px;
   margin-top: 16px;
+}
+
+.card-description {
+  font-family: $sans-font;
+  font-size: $fs-2;
+  font-weight: $fw-r;
+  margin-bottom: 4px;
 }
 
 .label {

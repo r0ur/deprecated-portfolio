@@ -14,32 +14,30 @@
     <meta name="theme-color" content="#121212" />
     <base href="" target="_blank" />
     <title>Armando Rojano | Designer</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/images/Favicon.ico"
-      alt="Armando Rojano's Logo"
-    />
+    <link rel="icon" type="image/x-icon" href="/assets/images/Favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <noscript>
       Your browser does not support JavaScript, which may limit some
       functionality of this site.
     </noscript>
   </head>
-  <!-- Hero -->
+  <!-- Navigation -->
   <body class="main">
     <header>
-      <nav>
+      <nav class="navbar">
         <img
           src="/assets/images/Favicon.ico"
-          alt=""
-          width="32px"
-          height="32px"
+          alt="Armando Rojano's Logo"
+          width="40px"
+          height="40px"
         />
-        <a href="">About</a>
-        <a href="">Resume</a>
+        <div class="menu">
+          <a href="">About</a>
+          <a href="">Resume</a>
+        </div>
       </nav>
     </header>
+    <!-- Hero -->
     <main>
       <section class="hero">
         <div>
@@ -50,38 +48,41 @@
           </h2>
         </div>
         <div class="buttons-container">
-          <a href="mailto:armando_rour@outlook.com" class="button">
-            armando_rour@outlook.com</a
-          >
-          <button
-            aria-label="Copy email to clipboard"
-            onclick="copyToClipboard('armando_rour@outlook.com')"
-          >
-            Copy
+          <button href="mailto:armando_rour@outlook.com" class="text-button">
+            armando_rour@outlook.com
           </button>
+          <button class="icon-button" aria-label="Copy email to clipboard">
+            <img
+              src="/assets/icons/copy32x32.svg"
+              alt="Copy Icon"
+              width="27px"
+              height="27x"
+            />
+          </button>
+          <i src="/assets/icons/copy32x32.svg"></i>
         </div>
       </section>
       <!-- Case Studies -->
       <section class="case-studies">
         <div>
-          <div class="header-cases">
-            <div class="title-cases">
+          <div class="header">
+            <div class="title-container">
               <img
                 src="/assets/icons/folder32x32.svg"
                 alt="Folder Icon"
                 width="32px"
                 height="32px"
               />
-              <h2>⌈~/armando-rojano/case-studies</h2>
+              <h2 class="title">⌈~/armando-rojano/case-studies</h2>
             </div>
             <p class="counter">9 documents</p>
           </div>
-          <h2>⌊.../tratodirecto.docx</h2>
+          <h2 class="title">⌊.../tratodirecto.docx</h2>
         </div>
         <div>
           <div class="list-card">
             <div>
-              <p class="cases-descriptions">
+              <p class="card-description">
                 <strong>TratoDirecto</strong> — Red de distribución y logística
                 para transportistas enfocada en la seguridad y facilidad de lo
                 digital.
@@ -89,14 +90,14 @@
               <p class="label">customer experience</p>
             </div>
             <div>
-              <p class="cases-descriptions">
+              <p class="card-description">
                 <strong>TratoDirecto</strong> — Red de distribución y logística
                 para transportistas enfocada en la seguridad y facilidad de lo
                 digital.
               </p>
               <p class="label">customer experience</p>
             </div>
-            <div class="cases-descriptions">
+            <div class="card-description">
               <p>
                 <strong>TratoDirecto</strong> — Red de distribución y logística
                 para transportistas enfocada en la seguridad y facilidad de lo
@@ -105,7 +106,7 @@
               <p class="label">customer experience</p>
             </div>
             <div>
-              <p class="cases-descriptions">
+              <p class="card-description">
                 <strong>TratoDirecto</strong> — Red de distribución y logística
                 para transportistas enfocada en la seguridad y facilidad de lo
                 digital.
@@ -113,7 +114,7 @@
               <p class="label">customer experience</p>
             </div>
             <div>
-              <p class="cases-descriptions">
+              <p class="card-description">
                 <strong>TratoDirecto</strong> — Red de distribución y logística
                 para transportistas enfocada en la seguridad y facilidad de lo
                 digital.
@@ -126,19 +127,67 @@
       <!-- Live Work -->
       <section class="live-work">
         <div>
-          <div class="header-cases">
-            <div class="title-cases">
+          <div class="header">
+            <div class="title-container">
               <img
-                src="/assets/icons/folder32x32.svg"
+                src="/assets/icons/bullseye32x32.svg"
                 alt="Folder Icon"
                 width="32px"
                 height="32px"
               />
-              <h2>⌈~/armando-rojano/live-work</h2>
+              <h2 class="title">⌈~/armando-rojano/live-work</h2>
             </div>
             <p class="counter">6 URLs</p>
           </div>
-          <h2>⌊.../https://www.immersio.vr.com</h2>
+          <h2 class="title">⌊.../https://www.immersio.vr.com</h2>
+        </div>
+        <div>
+          <div class="list-card">
+            <div>
+              <p class="card-description">
+                <strong>Immersio</strong> — Soluciones con realidad aumentada,
+                mixta y virtual para empresas.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="card-description">
+                <strong>Binca</strong> — Herramienta digital que facilita los
+                mejores créditos bancarios según el perfil de los consumidores.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div class="card-description">
+              <p>
+                <strong>Zuma Capital</strong> — Vehículo de inversión privado
+                con el objetivo de apoyar a empresas chihuahenses.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="card-description">
+                <strong>Ilum Venture</strong> — Servicio que impulsa startups
+                con base tecnológica en un menor tiempo de forma objetiva.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="card-description">
+                <strong>Ilum Prosperity Sherpas</strong> — Empresa de capital
+                privado especializada en administración de proyectos y
+                patrimonios familiares.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+            <div>
+              <p class="card-description">
+                <strong>OX Logistics</strong> — Red de distribución y logística
+                para transportistas enfocada en la seguridad y facilidad de lo
+                digital.
+              </p>
+              <p class="label">customer experience</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>

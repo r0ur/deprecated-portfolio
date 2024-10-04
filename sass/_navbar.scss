@@ -1,0 +1,23 @@
+// Navbar
+
+.navbar {
+  background-color: $black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  font-size: $fs-4;
+  font-weight: $fw-r;
+  font-family: $sans-font;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
