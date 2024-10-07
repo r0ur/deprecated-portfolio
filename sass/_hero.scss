@@ -9,21 +9,21 @@
   margin-bottom: 80px;
 }
 
-.hero h1 {
+.hero .name {
   font-size: $fs-1;
   font-weight: $fw-b;
   font-family: $sans-font;
   margin-bottom: 16px;
 }
 
-.hero h2 {
+.hero .description {
   font-size: $fs-1;
   font-weight: $fw-r;
   font-family: $sans-font;
   margin-bottom: 24px;
 }
 
-.hero span {
+.hero .rol {
   color: $primary;
   font-family: $mono-font;
 }

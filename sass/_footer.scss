@@ -1,22 +1,27 @@
-// Navbar Component
+// Footer Component
 
-.navbar {
+.footer {
   align-items: center;
   background-color: $black;
   display: flex;
+  font-family: $sans-font;
+  font-size: $fs-4;
   justify-content: space-between;
   margin-bottom: 80px;
 }
 
-.navbar a {
-  color: $white;
+.footer a {
+  align-items: center;
+  color: $primary;
+  display: flex;
   font-family: $sans-font;
   font-size: $fs-4;
   font-weight: $fw-r;
+  gap: 24px;
   text-decoration: none;
 }
 
-.navbar .menu {
+.footer .social {
   align-items: center;
   display: flex;
   gap: 24px;

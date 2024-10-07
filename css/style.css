@@ -7,25 +7,25 @@
   src: url("/fonts/CascadiaMono.ttf") format("truetype");
 }
 .navbar {
+  align-items: center;
   background-color: #121212;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 80px;
 }
 
-a {
+.navbar a {
   color: #f2f2f2;
-  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
-.menu {
+.navbar .menu {
+  align-items: center;
   display: flex;
   gap: 24px;
-  align-items: center;
 }
 
 .hero {
@@ -37,21 +37,21 @@ a {
   margin-bottom: 80px;
 }
 
-.hero h1 {
+.hero .name {
   font-size: 32px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 16px;
 }
 
-.hero h2 {
+.hero .description {
   font-size: 32px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 24px;
 }
 
-.hero span {
+.hero .rol {
   color: #f9f1a5;
   font-family: "Cascadia Mono", monospace;
 }
@@ -83,6 +83,7 @@ a {
 
 .live-work {
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .live-work .title {
@@ -112,6 +113,50 @@ a {
 
 .case-studies .label {
   color: #1add13;
+}
+
+.snap {
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.snap .title {
+  color: #92c5ed;
+}
+
+.snap .counter {
+  color: #92c5ed;
+}
+
+.snap .label {
+  color: #92c5ed;
+}
+
+.footer {
+  align-items: center;
+  background-color: #121212;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.footer a {
+  align-items: center;
+  color: #f9f1a5;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 24px;
+  text-decoration: none;
+}
+
+.footer .social {
+  align-items: center;
+  display: flex;
+  gap: 24px;
 }
 
 h1,
