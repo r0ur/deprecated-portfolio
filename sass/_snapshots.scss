@@ -24,10 +24,10 @@
 }
 
 .snap .description {
+  align-items: center;
+  display: flex;
   font-family: $sans-font;
   font-size: $fs-4;
   font-weight: $fw-r;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }

@@ -1,0 +1,28 @@
+// About Component
+
+.about {
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.about .title {
+  color: $quinary;
+}
+
+.about .counter {
+  color: $quinary;
+}
+
+.about .label {
+  color: $quinary;
+}
+
+.about .description {
+  display: flex;
+  flex-direction: column;
+  font-family: $sans-font;
+  font-size: $fs-2;
+  font-weight: $fw-r;
+  gap: 32px;
+  margin-bottom: 4px;
+}
