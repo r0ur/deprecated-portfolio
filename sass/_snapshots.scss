@@ -13,6 +13,21 @@
   color: $quaternary;
 }
 
+.snap .image {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .snap .label {
   color: $quaternary;
+}
+
+.snap .description {
+  font-family: $sans-font;
+  font-size: $fs-4;
+  font-weight: $fw-r;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

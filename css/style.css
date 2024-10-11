@@ -128,8 +128,23 @@
   color: #92c5ed;
 }
 
+.snap .image {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .snap .label {
   color: #92c5ed;
+}
+
+.snap .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer {
@@ -172,6 +187,11 @@ p {
 body {
   background-color: #121212;
   color: #f2f2f2;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
 }
 
 .main {
