@@ -1,18 +1,44 @@
 // Live Work Component
 
 .live-work {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .title {
+    color: $tertiary;
+  }
+
+  .subtitle {
+    color: $tertiary;
+  }
+
+  .label {
+    color: $tertiary;
+  }
+}
+
+.live-work .sites-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 80px;
-}
 
-.live-work .title {
-  color: $tertiary;
-}
+  a {
+    color: $white;
+    text-decoration: none;
+    font-family: $mono-font;
+    font-size: $fs-3;
+    font-weight: $fw-r;
 
-.live-work .counter {
-  color: $tertiary;
-}
+    &:hover {
+      background-color: $tertiary-shadow;
+    }
+  }
 
-.live-work .label {
-  color: $tertiary;
+  p {
+    color: $tertiary;
+    font-family: $mono-font;
+  }
 }

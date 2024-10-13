@@ -8,10 +8,10 @@
 }
 .navbar {
   align-items: center;
-  background-color: #121212;
+  background-color: #0e0d0e;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .navbar a {
@@ -20,12 +20,16 @@
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
+  padding: 12px;
 }
 
 .navbar .menu {
   align-items: center;
   display: flex;
-  gap: 24px;
+}
+
+.navbar .menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .hero {
@@ -34,14 +38,13 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .hero .name {
   font-size: 32px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 16px;
 }
 
 .hero .description {
@@ -52,14 +55,14 @@
 }
 
 .hero .rol {
-  color: #f9f1a5;
+  color: #ff5555;
   font-family: "Cascadia Mono", monospace;
 }
 
-.text-button {
+.hero .text-button {
   background-color: transparent;
-  border: #f9f1a5 1px solid;
-  color: #f9f1a5;
+  border: #ff5555 1px solid;
+  color: #ff5555;
   cursor: pointer;
   font-family: "Cascadia Mono", monospace;
   font-size: 20px;
@@ -68,51 +71,110 @@
   padding: 0px 16px;
 }
 
-.icon-button {
+.hero .icon-button {
   background-color: transparent;
-  border: #f9f1a5 1px solid;
+  border: #ff5555 1px solid;
   cursor: pointer;
   height: 51px;
   padding: 0px 16px;
 }
 
-.buttons-container {
+.hero .icon-button:hover,
+.hero .text-button:hover {
+  background-color: rgba(255, 85, 85, 0.2);
+}
+
+.hero .buttons-container {
   display: flex;
   gap: 12px;
 }
 
 .live-work {
-  align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-
 .live-work .title {
-  color: #f9aab0;
+  color: #f1fa8c;
 }
-
-.live-work .counter {
-  color: #f9aab0;
+.live-work .subtitle {
+  color: #f1fa8c;
 }
-
 .live-work .label {
-  color: #f9aab0;
+  color: #f1fa8c;
+}
+
+.live-work .sites-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.live-work .sites-list a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: "Cascadia Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
+}
+.live-work .sites-list a:hover {
+  background-color: rgba(241, 250, 140, 0.2);
+}
+.live-work .sites-list p {
+  color: #f1fa8c;
+  font-family: "Cascadia Mono", monospace;
 }
 
 .case-studies {
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .case-studies .title {
-  color: #1add13;
+  color: #50fa7b;
 }
 
-.case-studies .counter {
-  color: #1add13;
+.case-studies .subtitle {
+  color: #50fa7b;
 }
 
 .case-studies .label {
-  color: #1add13;
+  color: #50fa7b;
+}
+
+.case-studies .card {
+  border: 1px solid #50fa7b;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 8px;
+  padding: 16px;
+}
+
+.case-studies .card:hover {
+  background-color: rgba(241, 250, 140, 0.1);
+  pointer-events: initial;
+}
+
+.case-studies .title-card {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.case-studies .card-desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.case-studies .loader {
+  color: #50fa7b;
+  display: flex;
+  font-family: "Cascadia Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: end;
 }
 
 .snap {
@@ -121,11 +183,11 @@
 }
 
 .snap .title {
-  color: #92c5ed;
+  color: #ffb86c;
 }
 
 .snap .counter {
-  color: #92c5ed;
+  color: #ffb86c;
 }
 
 .snap .image {
@@ -135,7 +197,7 @@
 }
 
 .snap .label {
-  color: #92c5ed;
+  color: #ffb86c;
 }
 
 .snap .description {
@@ -153,15 +215,15 @@
 }
 
 .about .title {
-  color: #cccccc;
+  color: #bd93f9;
 }
 
 .about .counter {
-  color: #cccccc;
+  color: #bd93f9;
 }
 
 .about .label {
-  color: #cccccc;
+  color: #bd93f9;
 }
 
 .about .description {
@@ -180,15 +242,15 @@
 }
 
 .technos .title {
-  color: #a8ffa8;
+  color: #ff79c6;
 }
 
 .technos .counter {
-  color: #a8ffa8;
+  color: #ff79c6;
 }
 
 .technos .label {
-  color: #a8ffa8;
+  color: #ff79c6;
 }
 
 .technos .description {
@@ -203,7 +265,7 @@
 
 .footer {
   align-items: center;
-  background-color: #121212;
+  background-color: #0e0d0e;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -213,7 +275,7 @@
 
 .footer a {
   align-items: center;
-  color: #f9f1a5;
+  color: #ff5555;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -243,13 +305,8 @@ p {
 }
 
 body {
-  background-color: #121212;
+  background-color: #0e0d0e;
   color: #f2f2f2;
-}
-
-img {
-  margin: 0px;
-  padding: 0px;
 }
 
 .main {
@@ -264,28 +321,28 @@ img {
   justify-content: space-between;
 }
 
-.title {
-  font-family: "Cascadia Mono", monospace;
-  font-size: 24px;
-  font-weight: 400;
-}
-
 .title-container {
   align-items: center;
   display: flex;
   gap: 8px;
 }
 
-.counter {
+.title {
   font-family: "Cascadia Mono", monospace;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
 }
 
-.list-card {
+.subtitle {
+  font-family: "Cascadia Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
   margin-top: 16px;
 }
 

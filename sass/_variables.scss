@@ -15,14 +15,25 @@ $phablet: 700px;
 $mobile: 540px;
 
 // Colors
-$black: #121212;
+$black: #0e0d0e;
 $white: #f2f2f2;
-$primary: #f9f1a5;
-$secondary: #1add13;
-$tertiary: #f9aab0;
-$quaternary: #92c5ed;
-$quinary: #cccccc;
-$senary: #a8ffa8;
+$primary: #ff5555;
+$secondary: #50fa7b;
+$tertiary: #f1fa8c;
+$quaternary: #ffb86c;
+$quinary: #bd93f9;
+$senary: #ff79c6;
+$septenary: #8be9fd;
+
+// Shadows
+$white-shadow: rgba(255, 255, 255, 0.1);
+$primary-shadow: rgba(255, 85, 85, 0.2);
+$secondary-shadow: rgba(241, 250, 140, 0.1);
+$tertiary-shadow: rgba(241, 250, 140, 0.2);
+$quaternary-shadow: rgba(255, 184, 108, 0.1);
+$quinary-shadow: rgba(189, 147, 249, 0.1);
+$senary-shadow: rgba(255, 121, 198, 0.1);
+$septenary-shadow: rgba(139, 233, 253, 0.1);
 
 // Fonts
 $sans-font: "Open Sans", sans-serif;

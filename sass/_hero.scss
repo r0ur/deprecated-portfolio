@@ -6,14 +6,13 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .hero .name {
   font-size: $fs-1;
   font-weight: $fw-b;
   font-family: $sans-font;
-  margin-bottom: 16px;
 }
 
 .hero .description {
@@ -28,7 +27,7 @@
   font-family: $mono-font;
 }
 
-.text-button {
+.hero .text-button {
   background-color: transparent;
   border: $primary 1px solid;
   color: $primary;
@@ -40,7 +39,7 @@
   padding: 0px 16px;
 }
 
-.icon-button {
+.hero .icon-button {
   background-color: transparent;
   border: $primary 1px solid;
   cursor: pointer;
@@ -48,7 +47,12 @@
   padding: 0px 16px;
 }
 
-.buttons-container {
+.hero .icon-button:hover,
+.hero .text-button:hover {
+  background-color: $primary-shadow;
+}
+
+.hero .buttons-container {
   display: flex;
   gap: 12px;
 }

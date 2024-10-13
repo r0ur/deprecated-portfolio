@@ -23,11 +23,6 @@ body {
   color: $white;
 }
 
-img {
-  margin: 0px;
-  padding: 0px;
-}
-
 .main {
   margin: 0 auto;
   max-width: 736px;
@@ -40,28 +35,28 @@ img {
   justify-content: space-between;
 }
 
-.title {
-  font-family: $mono-font;
-  font-size: $fs-2;
-  font-weight: $fw-r;
-}
-
 .title-container {
   align-items: center;
   display: flex;
   gap: 8px;
 }
 
-.counter {
+.title {
   font-family: $mono-font;
-  font-size: $fs-3;
+  font-size: $fs-2;
   font-weight: $fw-r;
 }
 
-.list-card {
+.subtitle {
+  font-family: $mono-font;
+  font-size: $fs-2;
+  font-weight: $fw-r;
+}
+
+.card-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
   margin-top: 16px;
 }
 

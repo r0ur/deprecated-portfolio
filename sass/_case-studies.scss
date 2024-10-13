@@ -2,17 +2,51 @@
 
 .case-studies {
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .case-studies .title {
   color: $secondary;
 }
 
-.case-studies .counter {
+.case-studies .subtitle {
   color: $secondary;
 }
 
 .case-studies .label {
   color: $secondary;
+}
+
+.case-studies .card {
+  border: 1px solid $secondary;
+  display: flex;
+  flex-direction: column;
+  font-size: $fs-3;
+  gap: 8px;
+  padding: 16px;
+}
+
+.case-studies .card:hover {
+  background-color: $secondary-shadow;
+  pointer-events: initial;
+}
+
+.case-studies .title-card {
+  font-family: $mono-font;
+  font-size: $fs-3;
+  font-weight: $fw-r;
+}
+
+.case-studies .card-desc {
+  font-family: $sans-font;
+  font-weight: $fw-r;
+}
+
+.case-studies .loader {
+  color: $secondary;
+  display: flex;
+  font-family: $mono-font;
+  font-size: $fs-4;
+  font-weight: $fw-r;
+  justify-content: end;
 }
