@@ -7,52 +7,52 @@
   justify-content: center;
   text-align: center;
   margin-bottom: 64px;
-}
 
-.hero .name {
-  font-size: $fs-1;
-  font-weight: $fw-b;
-  font-family: $sans-font;
-}
+  .name {
+    font-size: $fs-1;
+    font-weight: $fw-b;
+    font-family: $sans-font;
+  }
 
-.hero .description {
-  font-size: $fs-1;
-  font-weight: $fw-r;
-  font-family: $sans-font;
-  margin-bottom: 24px;
-}
+  .description {
+    font-size: $fs-1;
+    font-weight: $fw-r;
+    font-family: $sans-font;
+    margin-bottom: 24px;
+  }
 
-.hero .rol {
-  color: $primary;
-  font-family: $mono-font;
-}
+  .rol {
+    color: $primary;
+    font-family: $mono-font;
+  }
 
-.hero .text-button {
-  background-color: transparent;
-  border: $primary 1px solid;
-  color: $primary;
-  cursor: pointer;
-  font-family: $mono-font;
-  font-size: $fs-3;
-  font-weight: $fw-r;
-  height: 51px;
-  padding: 0px 16px;
-}
+  .text-button {
+    background-color: transparent;
+    border: $primary 1px solid;
+    color: $primary;
+    cursor: pointer;
+    font-family: $mono-font;
+    font-size: $fs-3;
+    font-weight: $fw-r;
+    height: 51px;
+    padding: 0px 16px;
+  }
 
-.hero .icon-button {
-  background-color: transparent;
-  border: $primary 1px solid;
-  cursor: pointer;
-  height: 51px;
-  padding: 0px 16px;
-}
+  .icon-button {
+    background-color: transparent;
+    border: $primary 1px solid;
+    cursor: pointer;
+    height: 51px;
+    padding: 0px 16px;
+  }
 
-.hero .icon-button:hover,
-.hero .text-button:hover {
-  background-color: $primary-shadow;
-}
+  .text-button:hover,
+  .icon-button:hover {
+    background-color: $primary-shadow;
+  }
 
-.hero .buttons-container {
-  display: flex;
-  gap: 12px;
+  .buttons-container {
+    display: flex;
+    gap: 12px;
+  }
 }

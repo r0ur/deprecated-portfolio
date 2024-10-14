@@ -1,28 +1,31 @@
 // About Component
 
 .about {
-  align-items: center;
-  margin-bottom: 80px;
-}
-
-.about .title {
-  color: $quinary;
-}
-
-.about .counter {
-  color: $quinary;
-}
-
-.about .label {
-  color: $quinary;
-}
-
-.about .description {
+  border: 1px solid $senary;
   display: flex;
   flex-direction: column;
-  font-family: $sans-font;
-  font-size: $fs-2;
-  font-weight: $fw-r;
-  gap: 32px;
-  margin-bottom: 4px;
+  gap: 16px;
+  margin-bottom: 64px;
+  padding: 16px;
+
+  .title,
+  .subtitle {
+    color: $senary;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    font-family: $sans-font;
+    font-size: $fs-3;
+    font-weight: $fw-r;
+    gap: 32px;
+    margin-bottom: 4px;
+  }
+
+  .label {
+    font-family: $sans-font;
+    font-size: $fs-3;
+    background-color: $senary-shadow;
+  }
 }

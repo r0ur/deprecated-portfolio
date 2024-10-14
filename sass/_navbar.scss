@@ -6,22 +6,22 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 64px;
-}
 
-.navbar a {
-  color: $white;
-  font-family: $sans-font;
-  font-size: $fs-4;
-  font-weight: $fw-r;
-  text-decoration: none;
-  padding: 12px;
-}
+  a {
+    color: $white;
+    font-family: $sans-font;
+    font-size: $fs-4;
+    font-weight: $fw-r;
+    text-decoration: none;
+    padding: 12px;
+  }
 
-.navbar .menu {
-  align-items: center;
-  display: flex;
-}
+  .menu {
+    align-items: center;
+    display: flex;
+  }
 
-.navbar .menu a:hover {
-  background-color: $white-shadow;
+  .menu a:hover {
+    background-color: $white-shadow;
+  }
 }

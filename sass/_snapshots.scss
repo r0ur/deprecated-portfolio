@@ -2,32 +2,36 @@
 
 .snap {
   align-items: center;
-  margin-bottom: 80px;
-}
+  margin-bottom: 64px;
 
-.snap .title {
-  color: $quaternary;
-}
+  .title,
+  .subtitle {
+    color: $quinary;
+  }
 
-.snap .counter {
-  color: $quaternary;
-}
+  .image {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 
-.snap .image {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
+  .label {
+    color: $quinary;
+    font-size: $fs-4;
+  }
 
-.snap .label {
-  color: $quaternary;
-}
+  .description {
+    align-items: flex-start;
+    display: flex;
+    font-family: $sans-font;
+    font-size: $fs-4;
+    font-weight: $fw-r;
+    gap: 32px;
+    justify-content: space-between;
+  }
 
-.snap .description {
-  align-items: center;
-  display: flex;
-  font-family: $sans-font;
-  font-size: $fs-4;
-  font-weight: $fw-r;
-  justify-content: space-between;
+  .card-list {
+    display: flex;
+    gap: 24px;
+  }
 }

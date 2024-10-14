@@ -6,6 +6,16 @@
   font-family: "Cascadia Mono";
   src: url("/fonts/CascadiaMono.ttf") format("truetype");
 }
+/* // Colors
+$black: #0e0d0e;
+$white: #f2f2f2;
+$primary: #ff5555;
+$secondary: #50fa7b;
+$tertiary: #f1fa8c;
+$quaternary: #ffb86c;
+$quinary: #bd93f9;
+$senary: #ff79c6;
+$septenary: #8be9fd; */
 .navbar {
   align-items: center;
   background-color: #0e0d0e;
@@ -13,7 +23,6 @@
   justify-content: space-between;
   margin-bottom: 64px;
 }
-
 .navbar a {
   color: #f2f2f2;
   font-family: "Open Sans", sans-serif;
@@ -22,12 +31,10 @@
   text-decoration: none;
   padding: 12px;
 }
-
 .navbar .menu {
   align-items: center;
   display: flex;
 }
-
 .navbar .menu a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -40,29 +47,25 @@
   text-align: center;
   margin-bottom: 64px;
 }
-
 .hero .name {
   font-size: 32px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
-
 .hero .description {
   font-size: 32px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 24px;
 }
-
 .hero .rol {
-  color: #ff5555;
+  color: #f2f2f2;
   font-family: "Cascadia Mono", monospace;
 }
-
 .hero .text-button {
   background-color: transparent;
-  border: #ff5555 1px solid;
-  color: #ff5555;
+  border: #f2f2f2 1px solid;
+  color: #f2f2f2;
   cursor: pointer;
   font-family: "Cascadia Mono", monospace;
   font-size: 20px;
@@ -70,39 +73,36 @@
   height: 51px;
   padding: 0px 16px;
 }
-
 .hero .icon-button {
   background-color: transparent;
-  border: #ff5555 1px solid;
+  border: #f2f2f2 1px solid;
   cursor: pointer;
   height: 51px;
   padding: 0px 16px;
 }
-
-.hero .icon-button:hover,
-.hero .text-button:hover {
+.hero .text-button:hover,
+.hero .icon-button:hover {
   background-color: rgba(255, 85, 85, 0.2);
 }
-
 .hero .buttons-container {
   display: flex;
   gap: 12px;
 }
 
 .live-work {
-  margin-bottom: 64px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 64px;
 }
 .live-work .title {
-  color: #f1fa8c;
+  color: #f2f2f2;
 }
 .live-work .subtitle {
-  color: #f1fa8c;
+  color: #f2f2f2;
 }
 .live-work .label {
-  color: #f1fa8c;
+  color: #f2f2f2;
 }
 
 .live-work .sites-list {
@@ -113,16 +113,16 @@
 }
 .live-work .sites-list a {
   color: #f2f2f2;
-  text-decoration: none;
   font-family: "Cascadia Mono", monospace;
   font-size: 20px;
   font-weight: 400;
+  text-decoration: none;
 }
 .live-work .sites-list a:hover {
   background-color: rgba(241, 250, 140, 0.2);
 }
 .live-work .sites-list p {
-  color: #f1fa8c;
+  color: #f2f2f2;
   font-family: "Cascadia Mono", monospace;
 }
 
@@ -130,46 +130,33 @@
   align-items: center;
   margin-bottom: 64px;
 }
-
-.case-studies .title {
-  color: #50fa7b;
-}
-
+.case-studies .title,
 .case-studies .subtitle {
-  color: #50fa7b;
+  color: #f2f2f2;
 }
-
-.case-studies .label {
-  color: #50fa7b;
-}
-
 .case-studies .card {
-  border: 1px solid #50fa7b;
+  border: 1px solid #f2f2f2;
   display: flex;
   flex-direction: column;
   font-size: 20px;
   gap: 8px;
   padding: 16px;
 }
-
 .case-studies .card:hover {
   background-color: rgba(241, 250, 140, 0.1);
   pointer-events: initial;
 }
-
 .case-studies .title-card {
   font-family: "Cascadia Mono", monospace;
   font-size: 20px;
   font-weight: 400;
 }
-
 .case-studies .card-desc {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-
 .case-studies .loader {
-  color: #50fa7b;
+  color: #f2f2f2;
   display: flex;
   font-family: "Cascadia Mono", monospace;
   font-size: 16px;
@@ -179,80 +166,70 @@
 
 .snap {
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
-
-.snap .title {
-  color: #ffb86c;
+.snap .title,
+.snap .subtitle {
+  color: #f2f2f2;
 }
-
-.snap .counter {
-  color: #ffb86c;
-}
-
 .snap .image {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-
 .snap .label {
-  color: #ffb86c;
+  color: #f2f2f2;
+  font-size: 16px;
 }
-
 .snap .description {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  gap: 32px;
   justify-content: space-between;
+}
+.snap .card-list {
+  display: flex;
+  gap: 24px;
 }
 
 .about {
-  align-items: center;
-  margin-bottom: 80px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 64px;
+  padding: 16px;
 }
-
-.about .title {
-  color: #bd93f9;
+.about .title,
+.about .subtitle {
+  color: #f2f2f2;
 }
-
-.about .counter {
-  color: #bd93f9;
-}
-
-.about .label {
-  color: #bd93f9;
-}
-
 .about .description {
   display: flex;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   gap: 32px;
   margin-bottom: 4px;
 }
+.about .label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: rgba(255, 121, 198, 0.2);
+}
 
 .technos {
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
-
-.technos .title {
-  color: #ff79c6;
+.technos .title,
+.technos .subtitle {
+  color: #f2f2f2;
 }
-
-.technos .counter {
-  color: #ff79c6;
-}
-
-.technos .label {
-  color: #ff79c6;
-}
-
 .technos .description {
   display: flex;
   flex-direction: column;
@@ -272,26 +249,32 @@
   justify-content: space-between;
   margin-bottom: 80px;
 }
-
 .footer a {
   align-items: center;
-  color: #ff5555;
+  color: #f2f2f2;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  gap: 24px;
   text-decoration: none;
+  padding: 12px;
 }
-
+.footer .menu {
+  align-items: center;
+  display: flex;
+}
 .footer .social {
   align-items: center;
   display: flex;
-  gap: 24px;
 }
-
-.footer .back-bttn {
+.footer .social a:hover {
+  background-color: rgba(255, 85, 85, 0.2);
+}
+.footer .top {
   color: #f2f2f2;
+}
+.footer .top:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 h1,

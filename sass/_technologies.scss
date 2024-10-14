@@ -2,27 +2,20 @@
 
 .technos {
   align-items: center;
-  margin-bottom: 80px;
-}
+  margin-bottom: 64px;
 
-.technos .title {
-  color: $senary;
-}
+  .title,
+  .subtitle {
+    color: $septenary;
+  }
 
-.technos .counter {
-  color: $senary;
-}
-
-.technos .label {
-  color: $senary;
-}
-
-.technos .description {
-  display: flex;
-  flex-direction: column;
-  font-family: $sans-font;
-  font-size: $fs-2;
-  font-weight: $fw-r;
-  gap: 32px;
-  margin-bottom: 4px;
+  .description {
+    display: flex;
+    flex-direction: column;
+    font-family: $sans-font;
+    font-size: $fs-2;
+    font-weight: $fw-r;
+    gap: 32px;
+    margin-bottom: 4px;
+  }
 }
