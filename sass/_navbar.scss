@@ -1,11 +1,12 @@
-// Navbar Component
-
 .navbar {
   align-items: center;
   background-color: $black;
   display: flex;
   justify-content: space-between;
   margin-bottom: 64px;
+  z-index: 9999;
+  transition: top 0.3s;
+  position: relative;
 
   a {
     color: $white;
@@ -14,6 +15,7 @@
     font-weight: $fw-r;
     text-decoration: none;
     padding: 12px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
 
   .menu {
@@ -23,5 +25,11 @@
 
   .menu a:hover {
     background-color: $white-shadow;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 }

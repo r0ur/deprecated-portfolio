@@ -6,22 +6,15 @@
   font-family: "Cascadia Mono";
   src: url("/fonts/CascadiaMono.ttf") format("truetype");
 }
-/* // Colors
-$black: #0e0d0e;
-$white: #f2f2f2;
-$primary: #ff5555;
-$secondary: #50fa7b;
-$tertiary: #f1fa8c;
-$quaternary: #ffb86c;
-$quinary: #bd93f9;
-$senary: #ff79c6;
-$septenary: #8be9fd; */
 .navbar {
   align-items: center;
   background-color: #0e0d0e;
   display: flex;
   justify-content: space-between;
   margin-bottom: 64px;
+  z-index: 9999;
+  transition: top 0.3s;
+  position: relative;
 }
 .navbar a {
   color: #f2f2f2;
@@ -30,6 +23,7 @@ $septenary: #8be9fd; */
   font-weight: 400;
   text-decoration: none;
   padding: 12px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .navbar .menu {
   align-items: center;
@@ -37,6 +31,11 @@ $septenary: #8be9fd; */
 }
 .navbar .menu a:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar .sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .hero {
@@ -241,6 +240,70 @@ $septenary: #8be9fd; */
   font-weight: 400;
   gap: 32px;
   margin-bottom: 4px;
+}
+.technos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+}
+.technos li {
+  align-items: center;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 8px;
+  padding: 0px 16px;
+  width: 207px;
+}
+.technos .label {
+  color: #8be9fd;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Cascadia Mono", monospace;
+}
+.technos .figma,
+.technos .marvel,
+.technos .zeplin,
+.technos .maze,
+.technos .ai,
+.technos .ps,
+.technos .pr,
+.technos .ae,
+.technos .vue,
+.technos .vuetify,
+.technos .angular,
+.technos .react,
+.technos .html,
+.technos .css,
+.technos .js,
+.technos .ts,
+.technos .bs,
+.technos .sass,
+.technos .tailwind,
+.technos .node,
+.technos .next,
+.technos .mongo,
+.technos .mysql,
+.technos .post,
+.technos .git,
+.technos .github,
+.technos .bitucket,
+.technos .jira,
+.technos .confluence,
+.technos .teams,
+.technos .slack,
+.technos .discord,
+.technos .notion,
+.technos .miro,
+.technos .asana {
+  align-items: center;
+  height: 12px;
+  width: 12px;
+}
+.technos .figma {
+  border: 1px solid #ff7237;
 }
 
 .footer {

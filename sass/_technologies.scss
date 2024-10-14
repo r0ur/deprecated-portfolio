@@ -20,4 +20,73 @@
     gap: 32px;
     margin-bottom: 4px;
   }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+  }
+
+  li {
+    align-items: center;
+    display: flex;
+    font-family: $sans-font;
+    font-size: $fs-3;
+    font-weight: $fw-r;
+    gap: 8px;
+    padding: 0px 16px;
+    width: 207px;
+  }
+
+  .label {
+    color: $septenary;
+    font-size: $fs-3;
+    font-weight: $fw-r;
+    font-family: $mono-font;
+  }
+
+  .figma,
+  .marvel,
+  .zeplin,
+  .maze,
+  .ai,
+  .ps,
+  .pr,
+  .ae,
+  .vue,
+  .vuetify,
+  .angular,
+  .react,
+  .html,
+  .css,
+  .js,
+  .ts,
+  .bs,
+  .sass,
+  .tailwind,
+  .node,
+  .next,
+  .mongo,
+  .mysql,
+  .post,
+  .git,
+  .github,
+  .bitucket,
+  .jira,
+  .confluence,
+  .teams,
+  .slack,
+  .discord,
+  .notion,
+  .miro,
+  .asana {
+    align-items: center;
+    height: 12px;
+    width: 12px;
+  }
+
+  .figma {
+    border: 1px solid #ff7237;
+  }
 }

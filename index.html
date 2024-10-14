@@ -24,7 +24,7 @@
   <!-- Navigation -->
   <body class="main">
     <header>
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <img
           src="/assets/images/Favicon.ico"
           alt="Armando Rojano's Logo"
@@ -32,8 +32,7 @@
           height="40px"
         />
         <div class="menu">
-          <a href="#case-studies">Work</a>
-          <a href="">About</a>
+          <a href="" id="about-link">About</a>
           <a href="">Resume</a>
         </div>
       </nav>
@@ -153,19 +152,17 @@
       </section>
       <!-- Snapshots -->
       <section class="snap">
-        <div>
-          <div class="header">
-            <div class="title-container">
-              <img
-                src="/assets/icons/image.svg"
-                alt=""
-                width="28px"
-                height="28px"
-              />
-              <h2 class="title">~/snapshots</h2>
-            </div>
-            <p class="subtitle">Visual Showcase</p>
+        <div class="header">
+          <div class="title-container">
+            <img
+              src="/assets/icons/image.svg"
+              alt=""
+              width="28px"
+              height="28px"
+            />
+            <h2 class="title">~/snapshots</h2>
           </div>
+          <p class="subtitle">Visual Showcase</p>
         </div>
         <div class="card-list">
           <div class="image">
@@ -428,7 +425,7 @@
         </div>
       </section>
       <!-- About -->
-      <section class="about">
+      <section class="about" id="about-section">
         <div class="header">
           <div class="title-container">
             <img
@@ -477,69 +474,177 @@
           </div>
           <p class="subtitle">What I Work With</p>
         </div>
-        <div>
-          <p>Design</p>
-          <ul>
-            <li>Figma</li>
-            <li>Marvel</li>
-            <li>Zeplin</li>
-            <li>Maze</li>
-            <li>Illustrator</li>
-            <li>Photoshop</li>
-            <li>Premiere Pro</li>
-            <li>After Effects</li>
-          </ul>
-        </div>
-        <div>
-          <p>Frontend</p>
-          <ul>
-            <li>Vue</li>
-            <li>Vuetify</li>
-            <li>Angular</li>
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Bootstrap</li>
-            <li>Sass</li>
-          </ul>
-        </div>
-        <div>
-          <p>Backend</p>
-          <ul>
-            <li>Node.js</li>
-            <li>Next.js</li>
-          </ul>
-        </div>
-        <div>
-          <p>Database</p>
-          <ul>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>PostgreSQL</li>
-          </ul>
-        </div>
-        <div>
-          <p>Version Control</p>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Bitbucket</li>
-          </ul>
-        </div>
-        <div>
-          <p>Softwares/Others</p>
-          <ul>
-            <li>Jira</li>
-            <li>Confluence</li>
-            <li>Microsoft Teams</li>
-            <li>Slack</li>
-            <li>Discord</li>
-            <li>Notion</li>
-            <li>Miro</li>
-            <li>Asana</li>
-          </ul>
+        <div style="display: flex; flex-direction: column; gap: 32px">
+          <div>
+            <p class="label">Design</p>
+            <ul>
+              <li>
+                <div class="figma"></div>
+                Figma
+              </li>
+              <li>
+                <div class="marvel"></div>
+                Marvel
+              </li>
+              <li>
+                <div class="zeplin"></div>
+                Zeplin
+              </li>
+              <li>
+                <div class="maze"></div>
+                Maze
+              </li>
+              <li>
+                <div class="ai"></div>
+                Illustrator
+              </li>
+              <li>
+                <div class="ps"></div>
+                Photoshop
+              </li>
+              <li>
+                <div class="pr"></div>
+                Premiere Pro
+              </li>
+              <li>
+                <div class="ae"></div>
+                After Effects
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="label">Frontend</p>
+            <ul>
+              <li>
+                <div class="vue"></div>
+                Vue
+              </li>
+              <li>
+                <div class="vuetify"></div>
+                Vuetify
+              </li>
+              <li>
+                <div class="angular"></div>
+                Angular
+              </li>
+              <li>
+                <div class="react"></div>
+                React
+              </li>
+              <li>
+                <div class="html"></div>
+                HTML
+              </li>
+              <li>
+                <div class="css"></div>
+                CSS
+              </li>
+              <li>
+                <div class="js"></div>
+                JavaScript
+              </li>
+              <li>
+                <div class="ts"></div>
+                TypeScript
+              </li>
+              <li>
+                <div class="bs"></div>
+                Bootstrap
+              </li>
+              <li>
+                <div class="sass"></div>
+                Sass
+              </li>
+              <li>
+                <div class="tailwind"></div>
+                TailwindCSS
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="label">Backend</p>
+            <ul>
+              <li>
+                <div class="node"></div>
+                Node.js
+              </li>
+              <li>
+                <div class="next"></div>
+                Next.js
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="label">Database</p>
+            <ul>
+              <li>
+                <div class="mongo"></div>
+                MongoDB
+              </li>
+              <li>
+                <div class="mysql"></div>
+                MySQL
+              </li>
+              <li>
+                <div class="post"></div>
+                PostgreSQL
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="label">Version Control</p>
+            <ul>
+              <li>
+                <div class="git"></div>
+                Git
+              </li>
+              <li>
+                <div class="github"></div>
+                GitHub
+              </li>
+              <li>
+                <div class="bitucket"></div>
+                Bitbucket
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="label">Others</p>
+            <ul>
+              <li>
+                <div class="jira"></div>
+                Jira
+              </li>
+              <li>
+                <div class="confluence"></div>
+                Confluence
+              </li>
+              <li>
+                <div class="teams"></div>
+                Microsoft Teams
+              </li>
+              <li>
+                <div class="slack"></div>
+                Slack
+              </li>
+              <li>
+                <div class="discord"></div>
+                Discord
+              </li>
+              <li>
+                <div class="notion"></div>
+                Notion
+              </li>
+              <li>
+                <div class="miro"></div>
+                Miro
+              </li>
+              <li>
+                <div class="asana"></div>
+                Asana
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- Contact -->
@@ -558,8 +663,9 @@
           <a href="https://github.com/r0ur" target="_blank">GitHub</a>
           <a href="https://bento.me/rour" target="_blank">Bento</a>
         </div>
-        <a class="top">Back to top ↑</a>
+        <a class="top">Scroll up ↑</a>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
