@@ -59,13 +59,13 @@ $septenary: #8be9fd; */
   margin-bottom: 24px;
 }
 .hero .rol {
-  color: #f2f2f2;
+  color: #ff5555;
   font-family: "Cascadia Mono", monospace;
 }
 .hero .text-button {
   background-color: transparent;
-  border: #f2f2f2 1px solid;
-  color: #f2f2f2;
+  border: #ff5555 1px solid;
+  color: #ff5555;
   cursor: pointer;
   font-family: "Cascadia Mono", monospace;
   font-size: 20px;
@@ -75,7 +75,7 @@ $septenary: #8be9fd; */
 }
 .hero .icon-button {
   background-color: transparent;
-  border: #f2f2f2 1px solid;
+  border: #ff5555 1px solid;
   cursor: pointer;
   height: 51px;
   padding: 0px 16px;
@@ -96,13 +96,13 @@ $septenary: #8be9fd; */
   margin-bottom: 64px;
 }
 .live-work .title {
-  color: #f2f2f2;
+  color: #f1fa8c;
 }
 .live-work .subtitle {
-  color: #f2f2f2;
+  color: #f1fa8c;
 }
 .live-work .label {
-  color: #f2f2f2;
+  color: #f1fa8c;
 }
 
 .live-work .sites-list {
@@ -122,7 +122,7 @@ $septenary: #8be9fd; */
   background-color: rgba(241, 250, 140, 0.2);
 }
 .live-work .sites-list p {
-  color: #f2f2f2;
+  color: #f1fa8c;
   font-family: "Cascadia Mono", monospace;
 }
 
@@ -131,11 +131,12 @@ $septenary: #8be9fd; */
   margin-bottom: 64px;
 }
 .case-studies .title,
-.case-studies .subtitle {
-  color: #f2f2f2;
+.case-studies .subtitle,
+.case-studies .label {
+  color: #50fa7b;
 }
 .case-studies .card {
-  border: 1px solid #f2f2f2;
+  border: 1px solid #50fa7b;
   display: flex;
   flex-direction: column;
   font-size: 20px;
@@ -156,7 +157,7 @@ $septenary: #8be9fd; */
   font-weight: 400;
 }
 .case-studies .loader {
-  color: #f2f2f2;
+  color: #50fa7b;
   display: flex;
   font-family: "Cascadia Mono", monospace;
   font-size: 16px;
@@ -170,7 +171,7 @@ $septenary: #8be9fd; */
 }
 .snap .title,
 .snap .subtitle {
-  color: #f2f2f2;
+  color: #bd93f9;
 }
 .snap .image {
   display: flex;
@@ -178,7 +179,7 @@ $septenary: #8be9fd; */
   gap: 8px;
 }
 .snap .label {
-  color: #f2f2f2;
+  color: #bd93f9;
   font-size: 16px;
 }
 .snap .description {
@@ -196,7 +197,7 @@ $septenary: #8be9fd; */
 }
 
 .about {
-  border: 1px solid #f2f2f2;
+  border: 1px solid #ff79c6;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -205,7 +206,7 @@ $septenary: #8be9fd; */
 }
 .about .title,
 .about .subtitle {
-  color: #f2f2f2;
+  color: #ff79c6;
 }
 .about .description {
   display: flex;
@@ -223,12 +224,14 @@ $septenary: #8be9fd; */
 }
 
 .technos {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   margin-bottom: 64px;
 }
 .technos .title,
 .technos .subtitle {
-  color: #f2f2f2;
+  color: #8be9fd;
 }
 .technos .description {
   display: flex;
@@ -251,7 +254,7 @@ $septenary: #8be9fd; */
 }
 .footer a {
   align-items: center;
-  color: #f2f2f2;
+  color: #ff5555;
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;

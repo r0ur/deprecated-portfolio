@@ -1,7 +1,9 @@
 // Technologies Component
 
 .technos {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   margin-bottom: 64px;
 
   .title,
